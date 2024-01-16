@@ -25,7 +25,7 @@ const Home = () => {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3005/api/hello')
+    fetch('http://api-v1.shinefix.pro/api/hello')
       .then((response) => response.text())
       .then((data) => setMessage(data));
   }, []);
