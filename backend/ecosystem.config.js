@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'shinefix-back',
       script: 'npm',
-      args: 'start:prod',
+      args: 'run start:prod',
     },
   ],
 };
