@@ -1,9 +1,9 @@
-```javascript
 module.exports = {
-  apps : [{
-    name: "shinefix-back",
-    script: "npm",
-    args: "start:prod"
-  }]
+  apps: [
+    {
+      name: 'shinefix-back',
+      script: 'npm',
+      args: 'start:prod',
+    },
+  ],
 };
-```;

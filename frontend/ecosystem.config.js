@@ -1,4 +1,3 @@
-```javascript
 module.exports = {
   apps : [{
     name: "shinefix-frond",
@@ -6,4 +5,3 @@ module.exports = {
     args: "start"
   }]
 };
-```;
