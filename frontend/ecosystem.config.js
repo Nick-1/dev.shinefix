@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name: "shinefix-frond",
+    name: "shinefix-front",
     script: "npm",
     args: "start"
   }]
