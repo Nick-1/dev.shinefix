@@ -15,6 +15,7 @@ backend/pnpm-debug.log*
 backend/yarn-debug.log*
 backend/yarn-error.log*
 backend/lerna-debug.log*
+backend/.env
 
 frontend/node_modules
 /.pnp
@@ -42,6 +43,7 @@ frontend/yarn-error.log*
 
 # local env files
 /frontend.env*.local
+/frontend/.env.local
 
 # vercel
 frontend/.vercel

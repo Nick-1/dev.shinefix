@@ -23,9 +23,8 @@ import BackTopButton from "@/components/mainePageSections/BackTopButton";
 
 const Home = () => {
   const [message, setMessage] = useState('');
-
   useEffect(() => {
-    fetch('http://api-v1.shinefix.pro/api/hello')
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND}/api/hello`)
       .then((response) => response.text())
       .then((data) => setMessage(data));
   }, []);
