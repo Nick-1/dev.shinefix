@@ -32,6 +32,10 @@ frontend/node_modules
 # next.mainPageJS
 frontend/.next/
 frontend/out/
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production
 
 # production
 frontend/build
