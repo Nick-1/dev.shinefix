@@ -23,6 +23,8 @@ import BackTopButton from "@/components/mainePageSections/BackTopButton";
 
 const Home = () => {
   const [message, setMessage] = useState('');
+  console.info('process.env.NEXT_PUBLIC_BACKEND', process.env.NEXT_PUBLIC_BACKEND);
+
   useEffect(() => {
     fetch(`${process.env.NEXT_PUBLIC_BACKEND}/api/hello`)
       .then((response) => response.text())
