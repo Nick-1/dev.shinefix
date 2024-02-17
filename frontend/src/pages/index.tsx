@@ -20,6 +20,7 @@ import UserComments from "@/components/mainePageSections/UserComments";
 import Blog from "@/components/mainePageSections/Blog";
 import Footer from "@/components/mainePageSections/Footer";
 import BackTopButton from "@/components/mainePageSections/BackTopButton";
+import About_2 from "@/components/mainePageSections/About-2";
 
 const Home = () => {
   const [message, setMessage] = useState('');
@@ -35,13 +36,9 @@ const Home = () => {
     <>
       <ScriptSrc />
       <Header />
-      <Partners />
       <Features />
       <About />
-      <Facts />
-      <Team />
-      <UserComments />
-      <Blog />
+      <About_2 />
       <Footer />
       <BackTopButton />
     </>

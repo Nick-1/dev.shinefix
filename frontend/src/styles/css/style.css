@@ -776,7 +776,7 @@ p {
     .header-hero-content {
       padding-top: 100px; } }
   .header-hero-content .header-sub-title {
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 300;
     color: #fff; }
     @media (max-width: 767px) {
@@ -859,7 +859,7 @@ p {
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 50px 30px;
+  padding: 20px 10px;
   border: 2px solid transparent;
   border-radius: 8px; }
   @media (max-width: 767px) {
@@ -1517,3 +1517,17 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff; }
+
+.responsive-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.responsive-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
