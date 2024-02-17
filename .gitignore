@@ -4,6 +4,7 @@
 node_modules
 package-lock.json
 package.json
+wiki.txt
 # dependencies
 backend/node_modules
 backend/dist

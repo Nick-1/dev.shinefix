@@ -25,11 +25,11 @@ const Home = () => {
   const [message, setMessage] = useState('');
   console.info('process.env.NEXT_PUBLIC_BACKEND', process.env.NEXT_PUBLIC_BACKEND);
 
-  useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_BACKEND}/api/hello`)
-      .then((response) => response.text())
-      .then((data) => setMessage(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch(`${process.env.NEXT_PUBLIC_BACKEND}/api/hello`)
+  //     .then((response) => response.text())
+  //     .then((data) => setMessage(data));
+  // }, []);
 
   return (
     <>
